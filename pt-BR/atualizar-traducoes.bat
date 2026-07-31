@@ -20,39 +20,51 @@ if not exist "scripts\update-manifest.ps1" (
     goto :fail
 )
 
+set "JSON_CHANGED=1"
 git diff --quiet -- "pt-BR/*.json"
 if not errorlevel 1 (
     git diff --cached --quiet -- "pt-BR/*.json"
+    if not errorlevel 1 set "JSON_CHANGED=0"
+)
+
+for /f "usebackq delims=" %%R in (`git log -1 --format^=%%H -- "pt-BR/*.json"`) do set "JSON_REVISION=%%R"
+
+if "%JSON_CHANGED%"=="0" (
+    powershell -NoProfile -ExecutionPolicy Bypass -Command "$m = ConvertFrom-Json -InputObject ([IO.File]::ReadAllText('manifest.json')); if ($m.languages.'pt-BR'.files.'translations_settings.json'.url -match '%JSON_REVISION%') { exit 0 } else { exit 1 }"
     if not errorlevel 1 (
-        echo Nenhuma alteracao de JSON encontrada em pt-BR.
+        echo Nenhuma alteracao de JSON ou manifesto encontrada.
         goto :done
     )
 )
 
-echo Alteracoes encontradas:
-git status --short -- "pt-BR/*.json"
-echo.
+if "%JSON_CHANGED%"=="1" (
+    echo Alteracoes encontradas:
+    git status --short -- "pt-BR/*.json"
+    echo.
 
-git add -A -- "pt-BR/*.json"
-if errorlevel 1 (
-    echo ERRO: nao foi possivel preparar os JSONs.
-    goto :fail
+    git add -A -- "pt-BR/*.json"
+    if errorlevel 1 (
+        echo ERRO: nao foi possivel preparar os JSONs.
+        goto :fail
+    )
+
+    git commit -m "feat: atualiza traducoes pt-br"
+    if errorlevel 1 (
+        echo ERRO: nao foi possivel criar o commit das traducoes.
+        goto :fail
+    )
 )
 
-git commit -m "feat: atualiza traducoes pt-br"
-if errorlevel 1 (
-    echo ERRO: nao foi possivel criar o commit das traducoes.
-    goto :fail
-)
+if "%JSON_CHANGED%"=="0" echo Manifesto desatualizado; corrigindo agora.
 
-for /f "usebackq delims=" %%V in (`powershell -NoProfile -ExecutionPolicy Bypass -Command "$m = Get-Content 'manifest.json' -Raw ^| ConvertFrom-Json; if ($m.version -notmatch '^(.*\.)([0-9]+)$') { throw 'Formato de versao invalido' }; '{0}{1}' -f $Matches[1], ([int]$Matches[2] + 1)"`) do set "NEXT_VERSION=%%V"
+for /f "usebackq delims=" %%V in (`powershell -NoProfile -ExecutionPolicy Bypass -Command "$m = ConvertFrom-Json -InputObject ([IO.File]::ReadAllText('manifest.json')); $parts = $m.version.Split('.'); $last = $parts.Length - 1; $parts[$last] = ([int]$parts[$last] + 1); $parts -join '.'"`) do set "NEXT_VERSION=%%V"
 
 if not defined NEXT_VERSION (
     echo ERRO: nao foi possivel calcular a proxima versao.
     goto :fail
 )
 
-for /f "usebackq delims=" %%R in (`git rev-parse HEAD`) do set "REVISION=%%R"
+for /f "usebackq delims=" %%R in (`git log -1 --format^=%%H -- "pt-BR/*.json"`) do set "REVISION=%%R"
 
 echo Atualizando manifesto para %NEXT_VERSION%...
 powershell -NoProfile -ExecutionPolicy Bypass -File "scripts\update-manifest.ps1" -Version "%NEXT_VERSION%" -Revision "%REVISION%"
