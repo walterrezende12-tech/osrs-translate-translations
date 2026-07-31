@@ -27,13 +27,16 @@ manifesto.
 ## Publicar uma atualizacao
 
 1. Atualize os JSONs na pasta do idioma.
-2. Execute:
+2. Crie e envie um commit contendo os JSONs.
+3. Execute:
 
 ```powershell
 .\scripts\update-manifest.ps1 -Version "2026.07.31.1"
 ```
 
-3. Revise e envie os JSONs e o `manifest.json` juntos para a branch `main`.
+4. Revise e envie o novo `manifest.json` para a branch `main`.
 
-Use uma versao nova em cada publicacao. O script calcula os hashes e preserva
-automaticamente todos os idiomas presentes no repositorio.
+Use uma versao nova em cada publicacao. O script calcula os hashes e fixa as URLs
+no commit atual, evitando misturar arquivos de versoes diferentes por causa de
+cache do GitHub. Ele preserva automaticamente todos os idiomas presentes no
+repositorio.

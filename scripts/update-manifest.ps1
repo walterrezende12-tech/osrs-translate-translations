@@ -1,11 +1,25 @@
 param(
     [Parameter(Mandatory = $true)]
     [ValidatePattern('^[A-Za-z0-9._-]+$')]
-    [string] $Version
+    [string] $Version,
+
+    [string] $Revision,
+
+    [string] $Repository = 'walterrezende12-tech/osrs-translate-translations'
 )
 
 $ErrorActionPreference = 'Stop'
 $repositoryRoot = Split-Path -Parent $PSScriptRoot
+if ([string]::IsNullOrWhiteSpace($Revision)) {
+    $Revision = (& git -C $repositoryRoot rev-parse HEAD).Trim()
+}
+if ($Revision -notmatch '^[a-fA-F0-9]{40}$') {
+    throw 'Revision deve ser o SHA completo de um commit que contenha os JSONs publicados.'
+}
+if ($Repository -notmatch '^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$') {
+    throw 'Repository deve usar o formato proprietario/repositorio.'
+}
+
 $requiredFiles = @(
     'translations.json',
     'translations_skills.json',
@@ -32,7 +46,7 @@ foreach ($languageDirectory in $languageDirectories) {
         }
 
         $files[$fileName] = [ordered]@{
-            url = "$($languageDirectory.Name)/$fileName"
+            url = "https://raw.githubusercontent.com/$Repository/$Revision/$($languageDirectory.Name)/$fileName"
             sha256 = (Get-FileHash -LiteralPath $filePath -Algorithm SHA256).Hash.ToLowerInvariant()
         }
     }
