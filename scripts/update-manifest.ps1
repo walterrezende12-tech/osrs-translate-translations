@@ -66,7 +66,7 @@ $manifest = [ordered]@{
     languages = $languages
 }
 
-$json = $manifest | ConvertTo-Json -Depth 8
+$json = ($manifest | ConvertTo-Json -Depth 8) -replace "`r`n", "`n"
 $manifestPath = Join-Path $repositoryRoot 'manifest.json'
 $utf8WithoutBom = New-Object System.Text.UTF8Encoding($false)
 [System.IO.File]::WriteAllText($manifestPath, "$json`n", $utf8WithoutBom)
