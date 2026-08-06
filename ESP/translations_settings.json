@@ -1,1 +1,20 @@
-{}
+{
+  "All": "All",
+  "Bank": "Bank",
+  "Black": "Negro",
+  "Blue": "Azul",
+  "Cancel": "Cancelar",
+  "Confirm": "Confirmar",
+  "Exit": "Salir",
+  "Green": "Verde",
+  "Large": "Grande",
+  "Magic": "Magic",
+  "Medium": "Mediano",
+  "No": "No",
+  "None": "Ninguno",
+  "Normal": "Normal",
+  "Ok": "Ok",
+  "Red": "Red",
+  "Small": "Pequeño",
+  "Yes": "Sí"
+}
