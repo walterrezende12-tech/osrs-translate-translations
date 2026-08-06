@@ -15,5 +15,14 @@
   "Cancel": "Cancelar",
   "Can't login? Click here.": "¿No puedes iniciar sesión? Haz clic aquí.",
   "Connecting to server...": "Conectando al servidor...",
-  "This week we've got initial updates to Wyrmscraig, Sailing improvements such as the ability to fish while on your boat and various feedback changes to Permanent Deadman.": "Esta semana tenemos <col=00600c>actualizaciones iniciales para Wyrmscraig</col>, mejoras en Sailing, como la capacidad de <col=2f2fff>pescar en tu barco</col>, y varios <col=731d1d>cambios basados en comentarios para Deadman Permanente</col>."
+  "This week we've got initial updates to Wyrmscraig, Sailing improvements such as the ability to fish while on your boat and various feedback changes to Permanent Deadman.": "Esta semana tenemos <col=00600c>actualizaciones iniciales para Wyrmscraig</col>, mejoras en Sailing, como la capacidad de <col=2f2fff>pescar en tu barco</col>, y varios <col=731d1d>cambios basados en comentarios para Deadman Permanente</col>.",
+  "__duration.day": "día",
+  "__duration.days": "días",
+  "__duration.hour": "hora",
+  "__duration.hours": "horas",
+  "__duration.minute": "minuto",
+  "__duration.minutes": "minutos",
+  "__duration.second": "segundo",
+  "__duration.seconds": "segundos",
+  "__hans.template": "Has pasado [daysInWorld] [daysUnit], [hoursInWorld] [hoursUnit] y [minutesInWorld] [minutesUnit] en el mundo desde que llegaste hace [daysSinceArrival] [daysSinceArrivalUnit]."
 }

@@ -13,5 +13,14 @@
   "Hide username": "Ocultar usuário",
   "Login": "Entrar",
   "Cancel": "Cancelar",
-  "This week we've got initial updates to Wyrmscraig, Sailing improvements such as the ability to fish while on your boat and various feedback changes to Permanent Deadman.": "Nesta semana, temos <col=00600c>atualizações iniciais em Wyrmscraig</col>, melhorias em Sailing, como a capacidade de <col=2f2fff>pescar no seu barco</col>, e várias <col=731d1d>mudanças com base no feedback para o Deadman Permanente</col>."
+  "This week we've got initial updates to Wyrmscraig, Sailing improvements such as the ability to fish while on your boat and various feedback changes to Permanent Deadman.": "Nesta semana, temos <col=00600c>atualizações iniciais em Wyrmscraig</col>, melhorias em Sailing, como a capacidade de <col=2f2fff>pescar no seu barco</col>, e várias <col=731d1d>mudanças com base no feedback para o Deadman Permanente</col>.",
+  "__duration.day": "dia",
+  "__duration.days": "dias",
+  "__duration.hour": "hora",
+  "__duration.hours": "horas",
+  "__duration.minute": "minuto",
+  "__duration.minutes": "minutos",
+  "__duration.second": "segundo",
+  "__duration.seconds": "segundos",
+  "__hans.template": "Você passou [daysInWorld] [daysUnit], [hoursInWorld] [hoursUnit], [minutesInWorld] [minutesUnit] no mundo desde que chegou há [daysSinceArrival] [daysSinceArrivalUnit]."
 }
