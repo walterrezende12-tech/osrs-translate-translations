@@ -1,43 +1,43 @@
 {
     "schemaVersion":  1,
-    "version":  "2026.08.06.2",
+    "version":  "2026.08.06.3",
     "languages":  {
                       "ESP":  {
                                   "files":  {
                                                 "translations.json":  {
-                                                                          "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/ESP/translations.json",
+                                                                          "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/ESP/translations.json",
                                                                           "sha256":  "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
                                                                       },
                                                 "translations_skills.json":  {
-                                                                                 "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/ESP/translations_skills.json",
+                                                                                 "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/ESP/translations_skills.json",
                                                                                  "sha256":  "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
                                                                              },
                                                 "translations_quests.json":  {
-                                                                                 "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/ESP/translations_quests.json",
+                                                                                 "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/ESP/translations_quests.json",
                                                                                  "sha256":  "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
                                                                              },
                                                 "translations_items.json":  {
-                                                                                "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/ESP/translations_items.json",
+                                                                                "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/ESP/translations_items.json",
                                                                                 "sha256":  "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
                                                                             },
                                                 "translations_menu.json":  {
-                                                                               "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/ESP/translations_menu.json",
+                                                                               "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/ESP/translations_menu.json",
                                                                                "sha256":  "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
                                                                            },
                                                 "translations_overhead.json":  {
-                                                                                   "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/ESP/translations_overhead.json",
+                                                                                   "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/ESP/translations_overhead.json",
                                                                                    "sha256":  "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
                                                                                },
                                                 "translations_game_message.json":  {
-                                                                                       "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/ESP/translations_game_message.json",
+                                                                                       "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/ESP/translations_game_message.json",
                                                                                        "sha256":  "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
                                                                                    },
                                                 "translations_welcome.json":  {
-                                                                                  "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/ESP/translations_welcome.json",
-                                                                                  "sha256":  "993967f6d457ccff9886409635a4e37e6971d562a9b834303f9e69320c882d42"
+                                                                                  "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/ESP/translations_welcome.json",
+                                                                                  "sha256":  "4016954ed62dcf0857adf963eb276c6085227c42f6022b217bccf12c8338292e"
                                                                               },
                                                 "translations_settings.json":  {
-                                                                                   "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/ESP/translations_settings.json",
+                                                                                   "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/ESP/translations_settings.json",
                                                                                    "sha256":  "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
                                                                                }
                                             }
@@ -45,39 +45,39 @@
                       "pt-BR":  {
                                     "files":  {
                                                   "translations.json":  {
-                                                                            "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/pt-BR/translations.json",
+                                                                            "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/pt-BR/translations.json",
                                                                             "sha256":  "363e02b6a2036d9069cb527903857bf3c58425ccf851f5abb31e800a5fe4a78c"
                                                                         },
                                                   "translations_skills.json":  {
-                                                                                   "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/pt-BR/translations_skills.json",
+                                                                                   "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/pt-BR/translations_skills.json",
                                                                                    "sha256":  "b4dd6cb6856c2cf414f7052947091334536e3069bba54f0b38c5e3d6a860835d"
                                                                                },
                                                   "translations_quests.json":  {
-                                                                                   "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/pt-BR/translations_quests.json",
+                                                                                   "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/pt-BR/translations_quests.json",
                                                                                    "sha256":  "b04aa918036c35923d0e9a534e8e9eaf7379c7a226af602abf60c5f8dbdf33f3"
                                                                                },
                                                   "translations_items.json":  {
-                                                                                  "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/pt-BR/translations_items.json",
+                                                                                  "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/pt-BR/translations_items.json",
                                                                                   "sha256":  "0454748a686f40c4e773a33ef6a3bc9ad2c25ed978a95853914c1e075f54b198"
                                                                               },
                                                   "translations_menu.json":  {
-                                                                                 "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/pt-BR/translations_menu.json",
+                                                                                 "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/pt-BR/translations_menu.json",
                                                                                  "sha256":  "7cd62350a93010e7ce2089745b7868f907117a2b6fddd0f6a948e72d246bbe4d"
                                                                              },
                                                   "translations_overhead.json":  {
-                                                                                     "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/pt-BR/translations_overhead.json",
+                                                                                     "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/pt-BR/translations_overhead.json",
                                                                                      "sha256":  "58bfb3b895c39d7a348549481388dcda93dc5248af8c51745f7e4df23b8d7834"
                                                                                  },
                                                   "translations_game_message.json":  {
-                                                                                         "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/pt-BR/translations_game_message.json",
+                                                                                         "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/pt-BR/translations_game_message.json",
                                                                                          "sha256":  "c44db1c62e2eab613c81b5783632d26a5dc7e59f61590ce99f1bb16becdf6cf7"
                                                                                      },
                                                   "translations_welcome.json":  {
-                                                                                    "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/pt-BR/translations_welcome.json",
+                                                                                    "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/pt-BR/translations_welcome.json",
                                                                                     "sha256":  "c6eca9b58d4ad076b08c889695fd15a54a281a11d08cd0e5183ba9d1730edc9e"
                                                                                 },
                                                   "translations_settings.json":  {
-                                                                                     "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/32dd0e7f3c1c95bb61738b6bc85819d46c48b005/pt-BR/translations_settings.json",
+                                                                                     "url":  "https://raw.githubusercontent.com/walterrezende12-tech/osrs-translate-translations/dad002d5e83b78181f7420c8c82551d6ad0203d9/pt-BR/translations_settings.json",
                                                                                      "sha256":  "4bcff7c0424b4e7ed732c1520c3f8f3f5b0d042258979af34b375350107284e7"
                                                                                  }
                                               }
