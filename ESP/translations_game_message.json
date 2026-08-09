@@ -1,5 +1,8 @@
 {
   "You've started a new quest: [quest]": "Has iniciado una nueva quest: [quest]",
+  "Are you sure you wish to switch to [world]?": "¿Seguro que quieres cambiar al [world]?",
+  "Switch world": "Cambiar de mundo",
+  "Please finish what you're doing before using the World Switcher.": "Por favor, termina lo que estás haciendo antes de usar el Cambiador de Mundo.",
   "This item cannot be withdrawn as a note.": "Este objeto no puede retirarse como nota.",
   "A banker can sell you more bank space.": "Un banquero puede venderte más espacio en el banco.",
   "You'd have to be a member to log into that world.": "Tienes que ser miembro para iniciar sesión en ese mundo.",
