@@ -13,7 +13,6 @@
   "Hide username": "Ocultar usuário",
   "Login": "Entrar",
   "Cancel": "Cancelar",
-  "This week we've got initial updates to Wyrmscraig, Sailing improvements such as the ability to fish while on your boat and various feedback changes to Permanent Deadman.": "Nesta semana, temos <col=00600c>atualizações iniciais em Wyrmscraig</col>, melhorias em Sailing, como a capacidade de <col=2f2fff>pescar no seu barco</col>, e várias <col=731d1d>mudanças com base no feedback para o Deadman Permanente</col>.",
   "__duration.day": "dia",
   "__duration.days": "dias",
   "__duration.hour": "hora",
@@ -22,5 +21,7 @@
   "__duration.minutes": "minutos",
   "__duration.second": "segundo",
   "__duration.seconds": "segundos",
-  "__hans.template": "Você passou [daysInWorld] [daysUnit], [hoursInWorld] [hoursUnit], [minutesInWorld] [minutesUnit] no mundo desde que chegou há [daysSinceArrival] [daysSinceArrivalUnit]."
+  "__hans.template": "Você passou [daysInWorld] [daysUnit], [hoursInWorld] [hoursUnit], [minutesInWorld] [minutesUnit] no mundo desde que chegou há [daysSinceArrival] [daysSinceArrivalUnit].",
+  "This week we've got initial updates to Wyrmscraig, Sailing improvements such as the ability to fish while on your boat and various feedback changes to Permanent Deadman.": "Nesta semana, temos <col=00600c>atualizações iniciais em Wyrmscraig</col>, melhorias em Sailing, como a capacidade de <col=2f2fff>pescar no seu barco</col>, e várias <col=731d1d>mudanças com base no feedback para o Deadman Permanente</col>.",
+  "The Summer Sweep Up continues! The Chambers of Xeric loot updates are here, alongside the Agility and miscellaneous changes. Plus, Wyrmscraig tweaks, drop rates & more!": "O <col=2f2fff>Summer Sweep Up continua! As <col=00600c>atualizações nos saques das The Chambers of Xeric chegaram, junto com as <col=731d1d>mudanças em Agility e diversas outras. Além disso, ajustes em <col=efefef>Wyrmscraig, taxas de obtenção de itens e mais!"
 }
