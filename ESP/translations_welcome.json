@@ -24,5 +24,6 @@
   "__duration.minutes": "minutos",
   "__duration.second": "segundo",
   "__duration.seconds": "segundos",
-  "__hans.template": "Has pasado [daysInWorld] [daysUnit], [hoursInWorld] [hoursUnit] y [minutesInWorld] [minutesUnit] en el mundo desde que llegaste hace [daysSinceArrival] [daysSinceArrivalUnit]."
+  "__hans.template": "Has pasado [daysInWorld] [daysUnit], [hoursInWorld] [hoursUnit] y [minutesInWorld] [minutesUnit] en el mundo desde que llegaste hace [daysSinceArrival] [daysSinceArrivalUnit].",
+  "The Mad Angel Combat Achievements have arrived! Plus, more Sailing changes, including Loot Sacks from Courier Tasks, storing the Jeweller's Chisel in the POH and more!": "¡Los <col=731d1d>Combat Achievements de Mad Angel</col> han llegado! Además, más cambios en <col=2f2fff>Sailing</col>, incluyendo <col=2f2fff>Loot Sacks de Courier Tasks</col>, <col=770072>guardar el Jeweller's Chisel en la POH</col> y mucho más."
 }
