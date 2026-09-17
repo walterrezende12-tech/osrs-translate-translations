@@ -34,7 +34,7 @@ $requiredFiles = @(
 
 $languages = [ordered]@{}
 $languageDirectories = Get-ChildItem -LiteralPath $repositoryRoot -Directory |
-    Where-Object { $_.Name -ne 'scripts' } |
+    Where-Object { $_.Name -notin @('scripts', 'correcao') } |
     Sort-Object Name
 
 foreach ($languageDirectory in $languageDirectories) {

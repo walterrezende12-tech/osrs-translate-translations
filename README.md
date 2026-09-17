@@ -18,6 +18,7 @@ pt-BR/
   translations_settings.json
 scripts/
   update-manifest.ps1
+  validate-translations.ps1
 ```
 
 Cada idioma deve ter sua propria pasta e conter o conjunto completo de arquivos.
@@ -27,8 +28,10 @@ manifesto.
 ## Publicar uma atualizacao
 
 1. Atualize os JSONs na pasta do idioma.
-2. Crie e envie um commit contendo os JSONs.
-3. Execute:
+2. Execute `atualizar-traducoes.bat`. O script valida todos os JSONs antes de
+   criar commit ou fazer push. Cada arquivo deve ser um objeto JSON cujos valores
+   sejam textos, que é o formato aceito pelo plugin.
+3. Se preferir atualizar o manifesto manualmente, execute:
 
 ```powershell
 .\scripts\update-manifest.ps1 -Version "2026.07.31.1"
